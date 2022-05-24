@@ -2,7 +2,6 @@ import icons from 'url:../../img/icons.svg';
 export default class View {
   _data;
   render(data, render = true) {
-    alert('HACKED!');
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
     this._data = data;
